@@ -1,0 +1,42 @@
+group,original_name,safe_name,dtype,shape,unit,description,missing_value,valid_range,notes
+trainval,apparent_temperature (°C),apparent_temperature_C,float64,(349372,),°C,Apparent temperature (feels-like temperature),,,
+trainval,cloud_cover (%),cloud_cover_pct,int64,(349372,),%,Total cloud cover,,,
+trainval,cloud_cover_high (%),cloud_cover_high_pct,int64,(349372,),%,High-level cloud cover,,,
+trainval,cloud_cover_low (%),cloud_cover_low_pct,int64,(349372,),%,Low-level cloud cover,,,
+trainval,cloud_cover_mid (%),cloud_cover_mid_pct,int64,(349372,),%,Mid-level cloud cover,,,
+trainval,dew_point_2m (°C),dew_point_2m_C,float64,(349372,),°C,Dew point temperature at 2m,,,
+trainval,et0_fao_evapotranspiration (mm),et0_fao_mm,float64,(349372,),mm,FAO reference evapotranspiration ET0,,,
+trainval,images_log,images_log,uint8,(349372,64,64,3),,Sky images (RGB) aligned to timestamps,,,"Pixel range typically [0,255]"
+trainval,pv_log,pv_log,float64,(349372,),,PV power output (target variable),,,
+trainval,relative_humidity_2m (%),relative_humidity_2m_pct,int64,(349372,),%,Relative humidity at 2m,,,
+trainval,shortwave_radiation (W_m²),shortwave_radiation_Wm2,int64,(349372,),W/m^2,Downward shortwave radiation,,,"Original name contains superscript ²"
+trainval,surface_pressure (hPa),surface_pressure_hPa,float64,(349372,),hPa,Surface pressure,,,
+trainval,temperature_2m (°C),temperature_2m_C,float64,(349372,),°C,Air temperature at 2m,,,
+trainval,vapour_pressure_deficit (kPa),vapour_pressure_deficit_kPa,float64,(349372,),kPa,Vapour pressure deficit,,,
+trainval,weather_code (wmo code),weather_code_wmo,int64,(349372,),code,Weather condition code (WMO),,,"Interpretation depends on WMO code table"
+trainval,wind_direction_100m (°),wind_direction_100m_deg,int64,(349372,),deg,Wind direction at 100m,,,
+trainval,wind_direction_10m (°),wind_direction_10m_deg,int64,(349372,),deg,Wind direction at 10m,,,
+trainval,wind_gusts_10m (km_h),wind_gusts_10m_kmh,float64,(349372,),km/h,Wind gusts at 10m,,,
+trainval,wind_speed_100m (km_h),wind_speed_100m_kmh,float64,(349372,),km/h,Wind speed at 100m,,,
+trainval,wind_speed_10m (km_h),wind_speed_10m_kmh,float64,(349372,),km/h,Wind speed at 10m,,,
+
+test,apparent_temperature (°C),apparent_temperature_C,float64,(14003,),°C,Apparent temperature (feels-like temperature),,,
+test,cloud_cover (%),cloud_cover_pct,int64,(14003,),%,Total cloud cover,,,
+test,cloud_cover_high (%),cloud_cover_high_pct,int64,(14003,),%,High-level cloud cover,,,
+test,cloud_cover_low (%),cloud_cover_low_pct,int64,(14003,),%,Low-level cloud cover,,,
+test,cloud_cover_mid (%),cloud_cover_mid_pct,int64,(14003,),%,Mid-level cloud cover,,,
+test,dew_point_2m (°C),dew_point_2m_C,float64,(14003,),°C,Dew point temperature at 2m,,,
+test,et0_fao_evapotranspiration (mm),et0_fao_mm,float64,(14003,),mm,FAO reference evapotranspiration ET0,,,
+test,images_log,images_log,uint8,(14003,64,64,3),,Sky images (RGB) aligned to timestamps,,,"Pixel range typically [0,255]"
+test,pv_log,pv_log,float64,(14003,),,PV power output (target variable),,,
+test,relative_humidity_2m (%),relative_humidity_2m_pct,int64,(14003,),%,Relative humidity at 2m,,,
+test,shortwave_radiation (W_m²),shortwave_radiation_Wm2,int64,(14003,),W/m^2,Downward shortwave radiation,,,"Original name contains superscript ²"
+test,surface_pressure (hPa),surface_pressure_hPa,float64,(14003,),hPa,Surface pressure,,,
+test,temperature_2m (°C),temperature_2m_C,float64,(14003,),°C,Air temperature at 2m,,,
+test,vapour_pressure_deficit (kPa),vapour_pressure_deficit_kPa,float64,(14003,),kPa,Vapour pressure deficit,,,
+test,weather_code (wmo code),weather_code_wmo,int64,(14003,),code,Weather condition code (WMO),,,"Interpretation depends on WMO code table"
+test,wind_direction_100m (°),wind_direction_100m_deg,int64,(14003,),deg,Wind direction at 100m,,,
+test,wind_direction_10m (°),wind_direction_10m_deg,int64,(14003,),deg,Wind direction at 10m,,,
+test,wind_gusts_10m (km_h),wind_gusts_10m_kmh,float64,(14003,),km/h,Wind gusts at 10m,,,
+test,wind_speed_100m (km_h),wind_speed_100m_kmh,float64,(14003,),km/h,Wind speed at 100m,,,
+test,wind_speed_10m (km_h),wind_speed_10m_kmh,float64,(14003,),km/h,Wind speed at 10m,,,
