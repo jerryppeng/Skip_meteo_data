@@ -114,3 +114,27 @@ data.h5
     ├── images_log
     ├── pv_log
     ├── <18 meteorological/radiation variables>
+```
+
+---
+
+## Citation
+
+If you use this dataset in your research, please cite the following article:
+
+> Zhang, P., Lin, L., Zhang, Y., Wan, M., Simon, G., & Wang, H. (2027). Helio-TAF: A multimodal temporal attention fusion network for short-term photovoltaic power forecasting. *Applied Energy, 427*, 128864. [https://doi.org/10.1016/j.apenergy.2026.128864](https://doi.org/10.1016/j.apenergy.2026.128864)
+
+```bibtex
+@article{ZHANG2027128864,
+  author  = {Zhang, Peng and Lin, Lin and Zhang, Yiru and Wan, Midi
+             and Simon, Guillaume and Wang, Hao},
+  title   = {{Helio-TAF}: A multimodal temporal attention fusion network
+             for short-term photovoltaic power forecasting},
+  journal = {Applied Energy},
+  volume  = {427},
+  pages   = {128864},
+  year    = {2027},
+  doi     = {10.1016/j.apenergy.2026.128864},
+  url     = {https://www.sciencedirect.com/science/article/pii/S0306261926015205}
+}
+```
